@@ -3,10 +3,9 @@
     position: absolute;
     z-index: -1;
     top: 15%;
-    right: -10%;
+    left: 0;
     height: 80%;
-    /* 		width: 100%; */
-    width: 1000px;
+    width: 100%;
     mix-blend-mode: screen;
     background-blend-mode: overlay;
 }

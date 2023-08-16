@@ -11,7 +11,7 @@ export default function Home() {
     const color2 = () => color() - 50;
 
 
-    setInterval(() => setColor((color() + 1) % 360), 100)
+    setInterval(() => setColor((color() + 2) % 360), 100)
 
 
     return (
@@ -19,9 +19,6 @@ export default function Home() {
             <div
                 class="bg"
                 style={{
-                    transform: 'translateZ(0)',
-                    right: '-10%',
-                    height: '80%',
                     background: ` 
                     url(${noiseImg}),
                     radial-gradient(
@@ -44,7 +41,7 @@ export default function Home() {
                     "background-image": `url(${noiseImg})`
                 }}
             ></div>
-            <div class="text-white mt-[200px]">
+            <div class="text-white mt-16 sm:mt-[200px]">
                 <h1 class="text-5xl mb-8">Hello, I am <u>psy667</u> 👋</h1>
                 <p class="mb-4">I'm an enthusiastic Full-Stack Software Developer 👨‍💻 with over 4 years of experience.</p>
                 <p>Proficient in frontend dev with React ⚛️, Angular 🅰️ & more, and backend dev in NestJS 🐈, PostgreSQL 🐘 & microservices 🚀. Also skilled in UI/UX design 🎨.</p>
