@@ -4,6 +4,7 @@ import "./cv.css";
 export default function CV() {
     return (
     <div class="cv-bg">
+        <a class="text-xs block p-2 bg-slate-200 text-center w-full cursor-pointer" href="./arseniioguzov-cv.pdf" target="_blank">download .pdf</a>
         <main class="cv">
             <h1>Arsenii Oguzov</h1>
 
