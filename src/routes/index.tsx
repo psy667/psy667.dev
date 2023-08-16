@@ -1,8 +1,6 @@
-import { createSign } from "crypto";
 import { createSignal } from "solid-js";
 import { A } from "solid-start";
 import "./index.css";
-
 
 
 export default function Home() {
@@ -41,7 +39,7 @@ export default function Home() {
                     "background-image": `url(${noiseImg})`
                 }}
             ></div>
-            <div class="text-white mt-16 sm:mt-[200px]">
+            <div class="text-white mt-8 sm:mt-[200px]">
                 <h1 class="text-5xl mb-8">Hello, I am <u>psy667</u> 👋</h1>
                 <p class="mb-4">I'm an enthusiastic Full-Stack Software Developer 👨‍💻 with over 4 years of experience.</p>
                 <p>Proficient in frontend dev with React ⚛️, Angular 🅰️ & more, and backend dev in NestJS 🐈, PostgreSQL 🐘 & microservices 🚀. Also skilled in UI/UX design 🎨.</p>

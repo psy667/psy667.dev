@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .bg {
     transform: translateZ(0); /* Trigger hardware acceleration */
     position: absolute;

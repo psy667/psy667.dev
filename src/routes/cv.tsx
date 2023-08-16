@@ -3,6 +3,7 @@ import "./cv.css";
 
 export default function CV() {
     return (
+    <div class="cv-bg">
         <main class="cv">
             <h1>Arsenii Oguzov</h1>
 
@@ -72,5 +73,7 @@ export default function CV() {
 
             <p>Bachelor's Degree in Computer Science, VIHT, 2017-2021</p>
         </main>
+        </div>
+        
     )
 }
