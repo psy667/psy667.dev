@@ -1,0 +1,67 @@
+.cv {
+    font-family: Roboto Serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    margin: auto;
+    margin-top: 100px;
+    max-width: 500px;
+    margin-bottom: 100px;
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+
+    p {
+        margin: 12px 0;
+    }
+
+    ul {
+        list-style: disc;
+        margin: 12px 0;
+    }
+
+
+    a {
+        color: #3b82f6;
+    }
+
+    section {
+        display: flex;
+    }
+
+    article:first-child {
+        flex: 4;
+        margin-right: 20px;
+    }
+
+    article {
+        flex: 3;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    mark {
+        background-color: #ffee9988;
+    }
+
+    @media (max-width: 600px) {
+        main {
+            max-width: unset;
+            margin: 100px 20px;
+        }
+
+        section {
+            flex-direction: column;
+            margin-bottom: 30px
+        }
+    }
+}

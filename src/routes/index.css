@@ -1,0 +1,27 @@
+.bg {
+    transform: translateZ(0); /* Trigger hardware acceleration */
+    position: absolute;
+    z-index: -1;
+    top: 15%;
+    right: -10%;
+    height: 80%;
+    /* 		width: 100%; */
+    width: 1000px;
+    mix-blend-mode: screen;
+    background-blend-mode: overlay;
+}
+
+.grain {
+    transform: translateZ(0); /* Trigger hardware acceleration */
+    position: absolute;
+    content: "";
+    z-index: -1;
+    top: 0%;
+    right: 0%;
+    height: 100%;
+    width: 100%;
+    mix-blend-mode: screen;
+    background-color: #151515;
+    background-size: 100px, 100%, cover;
+    background-blend-mode: overlay;
+}
